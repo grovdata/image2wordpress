@@ -1,0 +1,3 @@
+WP_HOST='http://mywordpresshost.com/xmlrpc.php'
+WP_USER='user'
+WP_PASS='pass'

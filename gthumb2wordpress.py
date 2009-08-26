@@ -8,10 +8,8 @@ import xmlrpclib
 import wordpresslib
 import shutil
 
-WP_HOST='http://mywordpresshost.com/xmlrpc.php'
-WP_USER='user'
-WP_PASS='pass'
-MAX_SIZE=1200
+from config import WP_HOST, WP_USER, WP_PASS, MAX_SIZE
+
 TEMP_DIR=tempfile.mkdtemp()
 
 wp = wordpresslib.WordPressClient(WP_HOST, WP_USER, WP_PASS)
